@@ -6,4 +6,4 @@ Jogo com reconhecimento e validação de voz
 | -------------  | --- |
 | :sparkles: Nome        | **Numero Secreto JavaScript**
 | :label: Tecnologias | HTML, CSS, JavaScript (tecnologias utilizadas)
-| :rocket: URL         | https://numero-secreto-javascript.vercel.app
+| :rocket: URL         | https://numero-secreto-javascript.vercel.app/
