@@ -15,9 +15,17 @@
 
     <h3>O número secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span></h3>
     
-    <div id="chute" class="mensagem">
+    <form id="form-palpite">
+      <label for="palpite">Seu palpite</label>
+      <input id="palpite" type="number" min="1" max="100" step="1" required inputmode="numeric">
+      <button id="enviar-palpite" class="btn-jogar">Enviar palpite</button>
+    </form>
+    <button id="ouvir" type="button" class="btn-jogar">Falar um palpite</button>
+    <p id="status-voz" role="status">O microfone só será ativado ao escolher falar.</p>
+    <div id="chute" class="mensagem" role="status">
     </div>
 
+<button id="jogar-novamente" class="btn-jogar" hidden>Jogar novamente</button>
 <script src="app/sortearNumero.js"></script>
 <script src="app/reconhecimentoDeVoz.js"></script>
 <script src="app/validacao.js"></script>

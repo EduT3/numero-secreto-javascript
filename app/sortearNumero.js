@@ -9,7 +9,7 @@ const elementoMaiorValor = document.getElementById("maior-valor");
 elementoMaiorValor.innerHTML = maiorValor;
 
 function gerarNumeroAleatorio() {
-  return parseInt(Math.random() * maiorValor + 1);
+  return Math.floor(Math.random() * (maiorValor - menorValor + 1)) + menorValor;
 }
 
-console.log(numeroSecreto);
+
